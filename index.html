@@ -1,58 +1,251 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Bootstrap CSS -->
-    
-    <!-- Hackos CSS -->
-   <style>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
   
-    /* menu link in right side */
-      .ml-auto {
-      left: auto !important;
-      right: 0px;
-      }
-   /* menu link in right side */
-   
-  </style>
-    <!-- Hackos CSS -->
-    
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    
+  <title>Hello, world!</title>
+</head>
+<body>
   <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-      <div class="container">
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#about">About</a>
-            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-            <a class="nav-item nav-link" href="#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#tropos-freelancer-navbar">navbar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tropos-freelancer-header">header</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tropos-freelancer-portfolio">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tropos-freelancer-about">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tropos-freelancer-contact">contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tropos-freelancer-footer">footer</a>
+        </li>
+    </div>
+  </nav>
   <!-- /navbar -->
-    
-    <h1>Hello, world!</h1>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <!-- Navbar Template -->
+  <section class="container-fluid" id="tropos-freelancer-navbar">
+    <h2 class="text-center mt-4">Navbar</h2>
+
+    <!-- Navber Version 1 -->
+    <p>Version 1</p>
+    <article class="row">
+      <div class="col mb-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="tropos-freelancer-navbar-v1">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tropos-freelancer-navbar-v1-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="tropos-freelancer-navbar-v1-content">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </div>
+        </nav>
+      </div>
+    </article>
+    <!-- /Navber Version 1 -->
+
+    <!-- Navber Version 2 -->
+    <p>Version 2</p>
+    <article class="row">
+      <div class="col mb-4">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;" id="tropos-freelancer-navbar-v2">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tropos-freelancer-navbar-v2-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="tropos-freelancer-navbar-v2-content">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </div>
+        </nav>
+      </div>
+    </article>
+    <!-- /Navber Version 2 -->
+
+  </section>
+  <!-- /Navbar Template -->
+
+
+
+  <!-- Header Template -->
+  <section class="container-fluid" id="tropos-freelancer-header">
+    <h2 class="text-center mt-4">Header</h2>
+
+    <!-- Header Version 1 -->
+    <p>Version 1</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /Header Version 1 -->
+
+    <!-- Header Version 2 -->
+    <p>Version 2</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /Header Version 2 -->
+
+  </section>
+  <!-- /Header Template -->
+
+
+
+  <!-- Portfolio Template -->
+  <section class="container-fluid" id="tropos-freelancer-portfolio">
+    <h2 class="text-center mt-4">Portfolio</h2>
+  
+    <!-- Portfolio Version 1 -->
+    <p>Version 1</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /Portfolio Version 1 -->
+
+    <!-- Portfolio Version 2 -->
+    <p>Version 2</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /Portfolio Version 2 -->
+  
+  </section>
+  <!-- /Portfolio Template -->
+
+  
+  
+  <!-- About Template -->
+  <section class="container-fluid" id="tropos-freelancer-about">
+    <h2 class="text-center mt-4">About</h2>
+  
+    <!-- About Version 1 -->
+    <p>Version 1</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /About Version 1 -->
+
+    <!-- About Version 2 -->
+    <p>Version 2</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /About Version 2 -->
+  
+  </section>
+  <!-- /About Template -->
+
+
+
+  <!-- Contact Template -->
+  <section class="container-fluid" id="tropos-freelancer-contact">
+    <h2 class="text-center mt-4">Contact</h2>
+  
+    <!-- Contact Version 1 -->
+    <p>Version 1</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /Contact Version 1 -->
+
+    <!-- Contact Version 2 -->
+    <p>Version 2</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /Contact Version 2 -->
+  
+  </section>
+  <!-- /Contact Template -->
+
+  <!-- Footer Template -->
+  <section class="container-fluid" id="tropos-freelancer-footer">
+    <h2 class="text-center mt-4">Footer</h2>
+  
+    <!-- Footer Version 1 -->
+    <p>Version 1</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /Footer Version 1 -->
+
+    <!-- Footer Version 2 -->
+    <p>Version 2</p>
+    <article class="row">
+      <div class="col mb-4">
+      </div>
+    </article>
+    <!-- /Footer Version 2 -->
+  
+  </section>
+  <!-- /Footer Template -->
+
+  <!-- footer -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div>
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+    </div>
+  </nav>
+  <!-- /footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
